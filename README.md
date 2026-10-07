@@ -1,5 +1,4 @@
 # paamu
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,34 +13,29 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: Arial, sans-serif;
             background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            font-family: Arial, sans-serif;
             color: white;
-            text-align: center;
         }
 
         .welcome {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-        }
-
-        .welcome img {
-            width: 250px;
-            height: 180px;
-            object-fit: cover;
-            border-radius: 15px;
-            margin-bottom: 20px;
+            text-align: center;
         }
 
         h1 {
-            font-size: 45px;
-            margin: 10px 0;
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .snake {
+            width: 80px;
+            vertical-align: middle;
+            margin-left: 15px;
         }
 
         p {
             font-size: 20px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -49,16 +43,15 @@
 <body>
 
     <div class="welcome">
+        <h1>
+            Welcome, Paamu Nileesh
+            <img class="snake"
+                 src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Green_snake.jpg"
+                 alt="Snake">
+        </h1>
 
-        <!-- Snake Image -->
-        <img src="https://images.unsplash.com/photo-1531386151447-fd76ad50012f?auto=format&fit=crop&w=600&q=80"
-             alt="Snake">
-
-        <h1>Welcome!</h1>
-        <p>🐍 Paamu Nileesh 🐍</p>
-
+        <p>Welcome to my website!</p>
     </div>
 
 </body>
 </html>
-```
